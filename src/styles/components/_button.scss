@@ -6,4 +6,15 @@
     padding: $s-size;
     font-size: $font-size-large;
     font-weight: 300;
+    line-height: 1;
+    display: inline-block;
+    text-decoration: none;
+    
+    &--link {
+        background: none;
+    }
+    
+    &--secondary {
+        background-color: $primary-blue;
+    }
 }
